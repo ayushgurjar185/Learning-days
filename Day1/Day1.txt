@@ -1,2 +1,32 @@
+Learning Devops Zero to Hero 
+### Networking 
 
-This Day1 file
+Basic of Networking that we need to know in Devops
+
+* OSI and TCP/IP model 
+
+OSI stands for Open Systems Interconnection. It's a conceptual model that describes how data is transferred between devices and networks.
+
+The OSI model has seven layers, each with its own function:
+
+1.Physical layer: Transmits raw data between devices and physical media
+2.Data link layer: Organizes data into frames and ensures they reach their destination without errors
+3.Network layer: Routes data packets to their destination across networks
+4.Transport layer: Transfers data between end users, while maintaining quality of service
+5.Session layer: Establishes, maintains, and terminates communication sessions between devices
+6.Presentation layer: Interacts with the application layer
+7.Application layer: Interacts with the user
+
+OSI standardizes the functionality of a telecommunication or computing system regardless of its underlying internal structure and technology. Whereas TCP/IP is more practical and streamlined because it focuses on actual processes involved in data transmission over the internet.
+
+The TCP/IP model defines how devices should transmit data between them and enables communication over networks and large distance. The model represents how data is exchanged and organized over networks. It is split into four layers, which set the standards for data exchange and represent how data is handled and packaged when being delivered between applications, devices, and servers.
+
+The TCP/IP model has four Layer, each with its own function:
+
+1.Datalink layer: The datalink layer defines how data should be sent, handles the physical act of sending and receiving data, and is responsible for transmitting data between applications or devices on a network.
+
+2.Internet layer: The internet layer is responsible for sending packets from a network and controlling their movement across a network to ensure they reach their destination. It provides the functions and procedures for transferring data sequences between applications and devices across networks.
+
+3.Transport layer: The transport layer is responsible for providing a solid and reliable data connection between the original application or device and its intended destination. This is the level where data is divided into packets and numbered to create a sequence.
+
+4.Application layer: The application layer refers to programs that need TCP/IP to help them communicate with each other. This is the level that users typically interact with, such as email systems and messaging platforms. It combines the session, presentation, and application layers of the OSI model.
